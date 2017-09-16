@@ -64,6 +64,30 @@ var project = new Vue({
 
             return finalNum;
         },
+        numOpenTasks: function(){
+            var tasks = this.project.tasks;
+            var finalNum = 0;
+
+            for (var i = 0; i < tasks.length; i++){
+                if( tasks[i].state == "open" ){
+                    finalNum++;
+                }
+            }
+
+            return finalNum;
+        },
+        numResolvedTasks: function(){
+            var tasks = this.project.tasks;
+            var finalNum = 0;
+
+            for (var i = 0; i < tasks.length; i++){
+                if( tasks[i].state == "resolved" ){
+                    finalNum++;
+                }
+            }
+
+            return finalNum;
+        },
         numCompleteTasks: function(){
             var tasks = this.project.tasks;
             var finalNum = 0;

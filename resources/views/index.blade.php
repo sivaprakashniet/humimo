@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <a href="{{ route('home') }}" class="pull-left"><img src="{{ \App\Helpers\Helpers::logoUrl() }}" alt="Ribbbon"></a>
+                    <a href="{{ route('home') }}" class="pull-left"><img src="{{ \App\Helpers\Helpers::logoUrl() }}" alt="humimo"></a>
                     <a href="{{ route('login') }}" class="btn btn-primary btn-line pull-right login">Login</a>
                     <a href="{{ route('register') }}" class="btn btn-primary btn-line pull-right register">Register</a>
                     <div class="clearfix"></div>
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="left-side">
-                        <h1>Introducing Ribbbon 2.0</h1>
+                        <h1>Introducing humimo 1.0</h1>
                         <h2>An open source project management system.</h2>
                         <a href="{{ route('register') }}" class="btn btn-special">GET STARTED</a>
                     </div>
@@ -43,7 +43,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="text-center">Ribbbon comes full of delightful features!</h2>
+                    <h2 class="text-center">Humimo comes full of delightful features!</h2>
                 </div>
                 <div class="col-xs-12 col-md-3 feature">
                     <i class="ion-ios-person-outline"></i>
@@ -131,9 +131,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h3>Current Version <span class="color-primary">2.2</span> | <a class="color-primary" href="https://github.com/canvasowl/ribbbon" target="_blank">Go To Project</a></h3>
-                    <hr class="special">
-                    <p class="text-center last-line">Copyright {{ date("Y") }} &copy;  <a href="https://twitter.com/canvasowl" target="_blank">Jefry Cruz</a></p>
+                    <p class="text-center last-line">Copyright {{ date("Y") }} &copy;  <a target="_blank">sivaprakash</a></p>
                 </div>
             </div>
         </div>

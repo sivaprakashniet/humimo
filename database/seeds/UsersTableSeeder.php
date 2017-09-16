@@ -16,8 +16,8 @@ class UsersTableSeeder extends Seeder {
 		DB::table('users')->insert(
 		    array(
 		    	'full_name' 		=>	$faker->name,
-		    	'email' 			=> 	'test@ribbbon.com',
-		    	'password'			=>	Hash::make('secret'),
+		    	'email' 			=> 	'test@humimo.com',
+		    	'password'			=>	Hash::make('mimosecret'),
 		    	'tasks_created' 	=> 	1,
 		    	)
 		);

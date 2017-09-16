@@ -24,7 +24,6 @@
                     <span class="dim">Normal</span> <span class="priority-circle priority-normal"></span>
                     <span class="dim">Medium</span> <span class="priority-circle priority-medium"></span>
                     <span class="dim">High</span> <span class="priority-circle priority-high"></span>
-                    <span class="dim">Highest</span> <span class="priority-circle priority-highest"></span>
                 </span>
             </p>
             <div class="col-xs-11 no-padding-left">

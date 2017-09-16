@@ -1,11 +1,11 @@
-# Ribbbon
+# humimo
 
 _V 2.2_
 
 
-[Ribbbon.com](http://ribbbon.com)
+[humimo.com](http://humimo.com)
 
-Ribbbon is a project management system built on Laravel 5.1.* & Vue.js :)
+humimo is a project management system built on Laravel 5.1.* & Vue.js :)
 
 # Features
   - User / account creation

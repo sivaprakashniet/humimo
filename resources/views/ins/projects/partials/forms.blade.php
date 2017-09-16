@@ -80,16 +80,17 @@
                     <option selected>normal</option>
                     <option>medium</option>
                     <option>high</option>
-                    <option>highest</option>
                 </select>
             </div>
             <div class="col-xs-4 no-side-padding">
                 <label>State:</label>
                 <select v-model="newTask.state" class="form-control">
+                    <option>open</option>
                     <option>backlog</option>
                     <option selected>progress</option>
-                    <option>testing</option>
                     <option>complete</option>
+                    <option>testing</option>
+                    <option>resolved</option>
                 </select>
             </div>
             <label>Description:</label>
@@ -143,16 +144,17 @@
                     <option>normal</option>
                     <option>medium</option>
                     <option>high</option>
-                    <option>highest</option>
                 </select>
             </div>
             <div class="col-xs-4 no-side-padding">
                 <label>State:</label>
                 <select v-model="currentTask.state" class="form-control">
+                    <option>open</option>
                     <option>backlog</option>
                     <option selected>progress</option>
-                    <option>testing</option>
                     <option>complete</option>
+                    <option>testing</option>
+                    <option>resolved</option>
                 </select>
             </div>
             <label>Description:</label>

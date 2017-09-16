@@ -35,7 +35,7 @@ class ProjectsController extends BaseController {
 
 		if($projects) {
 			foreach ($projects as $project) {
-				$completedWeight = Project::find($project->id)->tasks()->where('state','=','complete')->sum('weight');
+				$completedWeight = Project::find($project->id)->tasks()->where('state','=','resolved')->sum('weight');
 				$totalWeight = Project::find($project->id)->tasks()->sum('weight');
 
 				$project["completedWeight"] = $completedWeight;
@@ -59,7 +59,7 @@ class ProjectsController extends BaseController {
 
         if($sharedProjects) {
             foreach ($sharedProjects as $project) {
-                $completedWeight = Project::find($project->id)->tasks()->where('state','=','complete')->sum('weight');
+                $completedWeight = Project::find($project->id)->tasks()->where('state','=','resolved')->sum('weight');
                 $totalWeight = Project::find($project->id)->tasks()->sum('weight');
 
                 $project["completedWeight"] = $completedWeight;

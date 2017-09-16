@@ -4,7 +4,7 @@
 	<div class="row" xmlns:v-on="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml"
 		 xmlns:v-on="http://www.w3.org/1999/xhtml">
 		<div class="col-xs-12 page-title-section">
-			<h1 class="pull-left">Hud</h1>
+			<h1 class="pull-left">Home</h1>
 		</div>
 	</div>
 
